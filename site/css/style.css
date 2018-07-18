@@ -26,7 +26,6 @@ nav a {
   background-color: rgb(251,214,219);
   border: 1px solid white;
   padding: 20px;
-  text-align: center;
 }
 nav a:hover {
   background-color:white;
