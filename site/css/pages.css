@@ -2,6 +2,13 @@ body {
   background-color: rgb(251,214,219);
   color: #555;
   font-family:'Josefin Sans', sans-serif;
+  background-image:url(../img/dieter.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size:500px;
+  background-blend-mode: luminosity;
+  background-attachment: fixed;
+
 }
 nav a {
   display: inline;
