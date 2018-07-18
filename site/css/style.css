@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(251,214,219);
+  color: #555;
+  font-family:'Josefin Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  margin: 100px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+nav a {
+  color: rgb(130,153,206);
+  font-size: 4rem;
+  font-style: italic;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 300px;
+  line-height: 100px;
+  background-color: rgb(251,214,219);
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+}
+nav a:hover {
+  background-color:white;
+}
+
+nav ul {
+  padding:0;
+  margin: 0;
+  list-style-type: none;
+
+
+
+}
+nav ul > li {
+  float: left;
+  width: 150px;
+  position: relative;
+  background-color: #fff;
+
+}
+nav ul > li:hover > ul {
+  visibility: visible;
+
+
+
+}
+nav ul > li > ul {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+
+
+
+}
+nav ul > li > ul a {
+  height: 50px;
+  font-size: 2rem;
+  line-height: 10px;
+  background-color: rgb(251,214,219);
+  font-style: normal;
+  border: none;
+  color: rgb(242,118,160);
+
+
+
+}
